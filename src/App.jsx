@@ -11,7 +11,7 @@ function App() {
         setCountries(data);
         setIsLoading(false);
       })
-      .catch(error => console.error('Error fetching countries:', error));
+      .catch(error => console.log('Error fetching countries:', error));
   }, []);
 
   return (
