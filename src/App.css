@@ -1,0 +1,21 @@
+.flag-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+  justify-items: center;
+}
+
+.flag-item {
+  text-align: center;
+}
+
+.flag-item img {
+  width: 100%;
+  max-width: 150px; /* Set maximum width for better appearance */
+  height: auto;
+}
+
+.flag-item p {
+  margin-top: 5px;
+}
